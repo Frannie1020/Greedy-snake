@@ -1,0 +1,19 @@
+﻿生成启动时间为 2018/12/16 23:08:28。
+     1>项目“D:\CorC++\第三次实验\snake1\snake1\snake1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files\VS\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt acllib.c
+         acllib.c
+         F:\Program Files\VS\VS2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt snake.cpp
+         snake.cpp
+     1>d:\corc++\第三次实验\snake1\snake1\snake.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\corc++\第三次实验\snake1\snake1\snake.cpp(62): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+       Link:
+         F:\Program Files\VS\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CorC++\第三次实验\snake1\Debug\snake1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CorC++\第三次实验\snake1\Debug\snake1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CorC++\第三次实验\snake1\Debug\snake1.lib" /MACHINE:X86 Debug\acllib.obj
+         Debug\snake.obj
+         LINK : 没有找到 D:\CorC++\第三次实验\snake1\Debug\snake1.exe 或上一个增量链接没有生成它；正在执行完全链接
+         snake1.vcxproj -> D:\CorC++\第三次实验\snake1\Debug\snake1.exe
+     1>已完成生成项目“D:\CorC++\第三次实验\snake1\snake1\snake1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:13.22
